@@ -1,0 +1,29 @@
+/* Стили для правого и нижнего экранов */
+.right-panel {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100% - 160px); /* 150px нижний экран + 10px отступ */
+  box-sizing: border-box;
+}
+
+.bottom-panel {
+  width: 100%;
+  background-color: #1e90ff; /* Синий цвет */
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 10px;
+  height: 150px; /* Фиксированная высота */
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: calc(100vh - 150px);
+    margin: 30px 10px 0 0;
+    overflow: hidden;
+}

@@ -1,0 +1,13 @@
+/* Стили только для index_stock.html */
+html.index-stock-html,
+body.index-stock-body {
+    overflow: hidden;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+.index-stock-body .content-wrapper {
+    overflow-y: auto;
+    height: calc(100vh - 150px);
+}

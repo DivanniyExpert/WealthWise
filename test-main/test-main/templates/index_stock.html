@@ -1,16 +1,30 @@
 {% extends "index1.html" %}
 
 {% block content %}
-<html lang="en">
-<body>
+<html lang="en" class="index-stock-page">
+<body class="index-stock-page">
+  <div class="container"></div>
   <div class="container1">
-    <div>
-      <h2>Текст2</h2>
+    <div class="content-wrapper">
+      <div class="sidebar">
+        <button class="color-btn" data-color="red">Красный</button>
+        <button class="color-btn" data-color="blue">Синий</button>
+        <button class="color-btn" data-color="green">Зеленый</button>
+        <button class="color-btn" data-color="yellow">Желтый</button>
+        <button class="color-btn" data-color="purple">Фиолетовый</button>
+        <button class="color-btn" data-color="orange">Оранжевый</button>
+        <button class="color-btn" data-color="pink">Розовый</button>
+        <button class="color-btn" data-color="brown">Коричневый</button>
+        <button class="color-btn" data-color="gray">Серый</button>
+        <button class="color-btn" data-color="black">Черный</button>
+        <button class="color-btn" data-color="white">Белый</button>
+        <button class="color-btn" data-color="cyan">Голубой</button>
+      </div>
+      <div class="right-panel"></div>
+      <div class="bottom-panel"></div>
     </div>
-    <div>
-      <h1>Олежа - работник года</h1>
-    </div>
-</div>
+  </div>
+  <script src="static/script.js"></script>
 </body>
 </html>
 {% endblock %}
