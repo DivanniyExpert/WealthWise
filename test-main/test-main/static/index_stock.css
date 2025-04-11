@@ -9,5 +9,5 @@ body.index-stock-body {
 
 .index-stock-body .content-wrapper {
     overflow-y: auto;
-    height: calc(100vh - 150px);
+    height: 650px;
 }

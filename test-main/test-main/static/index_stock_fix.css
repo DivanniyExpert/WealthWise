@@ -8,5 +8,5 @@ body[data-page="stock"] {
 
 body[data-page="stock"] .content-wrapper {
     overflow-y: auto;
-    height: calc(100vh - 150px);
+    height: 650px;
 }
